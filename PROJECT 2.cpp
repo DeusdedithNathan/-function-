@@ -9,3 +9,8 @@ int main() {
     int num;
     cout << "Enter a number: ";
     cin >> num;
+ if (num < 1) {
+        cout << "Please enter a valid number (n >= 1)." << endl;
+    } else {
+        cout << "f(" << num << ") = " << f(num) << endl;
+    }
